@@ -6,6 +6,8 @@ interface avatarInterface {
   size: number
 }
 
-export const Avatar = ({ src, alt, size }: avatarInterface) => {
+const Avatar = ({ src, alt, size }: avatarInterface) => {
   return <img src={src} alt={alt} width={size} height={size} style={{borderRadius: 100, objectFit: 'cover'}} />;
 };
+
+export default Avatar
