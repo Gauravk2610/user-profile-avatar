@@ -1,12 +1,16 @@
 import 'react-app-polyfill/ie11';
 import * as React from 'react';
 import * as ReactDOM from 'react-dom';
-import { Thing } from '../.';
+import { Avatar } from '../.';
 
 const App = () => {
   return (
     <div>
-      <Thing />
+      <Avatar 
+        src='https://www.tedxace.com/img/team/2020/gauravkonde.jpeg'
+        alt='profile'
+        size={80}
+      />
     </div>
   );
 };
