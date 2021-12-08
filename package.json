@@ -35,6 +35,23 @@
   },
   "name": "user-profile-avatar",
   "author": "Gaurav konde",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Gauravk2610/user-profile-avatar.git"
+  },
+  "homepage": "https://github.com/Gauravk2610/user-profile-avatar",
+  "keywords": [
+    "react",
+    "avatar",
+    "typescript",
+    "user",
+    "user-avatar",
+    "profile",
+    "profile-avatar",
+    "user-profile-avatar",
+    "user-avatar-profile",
+    "react-avatar"
+  ],
   "module": "dist/user-avatar.esm.js",
   "size-limit": [
     {
